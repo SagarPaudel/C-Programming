@@ -1,3 +1,3 @@
-#Do not Read this read me file.
+#Do not Read this README.md file.
 If you're reading this then this is just the waste of time. 
-Check the basic programming in c in the branch.
+Check the Programming in C in the branch.
