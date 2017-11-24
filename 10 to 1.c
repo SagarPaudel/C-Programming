@@ -7,5 +7,5 @@ int main()
 		printf("%i \t",num);
 		num--;
 	}
-	return ;
+	return 0;
 }
