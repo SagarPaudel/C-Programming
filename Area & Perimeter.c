@@ -11,3 +11,4 @@ int main()
 	float perimeter = 2 * pi * rad;
 	printf(" Area = %g \n Perimeter =%g", area, perimeter);
 	return 0;
+}
