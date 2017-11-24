@@ -24,7 +24,7 @@ void main()
 
 	
 	float h =  b * 4;
-	printf (" h = %f\n",h);
+	printf (" h = %f\n",h)
 	
 	
 }
