@@ -9,5 +9,5 @@ int main()
 		printf("%i X %i =%i\n",num,count,num*count);
 		count++;
 	}
-	return 0;
+	return 0
 }
