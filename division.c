@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	float a , b , c , d 
+	float a , b , c , d;
 	a = 3.31E-8;
 	b = 2.01E-7;
 	c = 7.16E-6;
