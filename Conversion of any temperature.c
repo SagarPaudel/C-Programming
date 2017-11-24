@@ -70,4 +70,5 @@ int main()
 			printf("Temperature in Fahrenheit is =%g F",far);
 		}
     }
+	return 0;
 }
