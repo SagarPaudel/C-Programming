@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<math.h>
+#define pi 3.14
 
 int main()
 {
-	float rad, pi;
-	pi= 3.14;
+	float rad;
 	printf ("Enter radius =");
 	scanf("%g", & rad);
 	float area = pi* pow(rad,2);
