@@ -1,13 +1,13 @@
 // To print blank lines of user input
 #include<stdio.h>
 int main(){
-	int lin, num=1;
+	int line, num=1;
 	printf("Input number of line blank\n");
-	scanf("%d",&lin);
+	scanf("%d",&line);
 	do {
 	   printf(" \n");
 	   num++;
 	}
-	while(num<=lin);
+	while(num<=line);
 return 0;
 }
