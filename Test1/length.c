@@ -7,5 +7,4 @@ int main(){
 	centimeter=(100/39.37)*inch;
 	printf("Given length in centimeter is %f",centimeter);
 	return 0;
-
 }
