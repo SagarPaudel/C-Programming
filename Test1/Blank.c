@@ -5,8 +5,9 @@ int main(){
 	printf("Input number of line blank\n");
 	scanf("%d",&lin);
 	do {
-	printf(" \n");
-	num++;}
+	   printf(" \n");
+	   num++;
+	}
 	while(num<=lin);
 return 0;
 }
