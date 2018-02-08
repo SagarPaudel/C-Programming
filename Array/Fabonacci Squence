@@ -1,0 +1,13 @@
+// To print fibonacci numbers
+#include<stdio.h>
+int main(){
+	int fabonacci[1000],i, num;
+	fabonacci[0]=1, fabonacci[1]=1;
+	printf("Ente the total Fabonacci numbers to display: ");
+	scanf("%d",&num);
+	for (i=2;i<num;++i)
+		fabonacci[i]=fabonacci[i-2]+fabonacci[i-1];
+	for(i=0;i<num;++i)
+		printf("%d\t", fabonacci[i]);
+	return 0;
+}
