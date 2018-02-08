@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+  int ar[10], i, temp[100];
+  printf("Enter 10 numbers\n");
+  for (i=0;i<10;++i){
+    scanf("%d",&ar[i]);
+  }
+  for(i=0;i<10;i=i+2){
+    temp[i]=ar[i];
+    ar[i]=ar[i+1];
+    ar[i+1]=temp[i];
+  }
+  printf("After swapping\n");
+  for(i=0;i<10;i++){
+    printf("%d\n",ar[i]);
+  }
+  return 0;
+}
