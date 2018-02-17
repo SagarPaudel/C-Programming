@@ -1,4 +1,4 @@
-// Numbers of array in ascending order
+// Numbers of array in descending order
 #include<stdio.h>
 int main(){
 	int ary[100],tem[100],i,j,ttln;
