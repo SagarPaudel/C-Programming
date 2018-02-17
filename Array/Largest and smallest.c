@@ -7,7 +7,7 @@ int main(){
 	for(i=0;i<num;++i){
 		scanf("%d",&ary[i]);
 	}
-	smallest = largest = 0;
+	smallest = largest = ary[0];
 	for(i=0;i<num;++i){
 		if(ary[i]>largest)
 			largest = ary[i];
